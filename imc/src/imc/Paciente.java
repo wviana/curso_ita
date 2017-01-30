@@ -9,6 +9,20 @@ public class Paciente {
 	 this.peso=peso;
 	 this.altura=altura;
 	 this.metros=metros;
+
+	}
+
+	public double calcularImc(){
+		double imc = peso / (altura * (metros));
+		return imc;
+	}
+	
+	public String diaginostico(){
+		
+		return null;
+		 
+	
 	}
 }	
+
 	
